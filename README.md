@@ -1,116 +1,86 @@
 # Spotify_vs_Youtube_EDA 🎵📊
 
-## Overview
+## How to Use This Repository on Windows
 
-This project performs **Exploratory Data Analysis (EDA)** on music performance data from **Spotify** and **YouTube** to compare how songs perform across both platforms.
+### 1. Install Git
 
-The analysis helps understand:
+Download Git for Windows:
 
-* Which platform gives more engagement
-* Correlation between Spotify streams and YouTube views
-* Popular artists and tracks
-* Trends in likes, comments, views, and streams
-* Audience behavior across platforms
+https://git-scm.com/downloads/win
 
----
+Check installation:
 
-## Dataset
-
-The dataset contains information about songs including:
-
-* Artist Name
-* Track Name
-* Spotify Streams
-* YouTube Views
-* Likes
-* Comments
-* Album Information
-* Audio Features
-
-Dataset Source: Kaggle
-
----
-
-
-
-## Sample Visualizations 📊
-
-* Heatmaps
-* Bar Charts
-* Scatter Plots
-* Distribution Plots
-
----
-
-## Installation & Setup ⚙️
-
-Clone the repository:
-
-```bash
-git clone git@github.com:Ahadmoen/Spotify_vs_Youtube_EDA.git
+```bash id="g1a9k2"
+git --version
 ```
 
-Move into the project directory:
+---
 
-```bash
+### 2. Install VS Code
+
+Download VS Code:
+
+https://code.visualstudio.com/
+
+---
+
+## 3. Setup Project (Git Workflow)
+
+### Initialize Git (if starting fresh project)
+
+```bash id="init01"
+git init
+```
+
+---
+
+### Clone Repository (if pulling from GitHub)
+
+```bash id="clone01"
+git clone https://github.com/Ahadmoen/Spotify_vs_Youtube_EDA.git
+```
+
+---
+
+### Move into project folder
+
+```bash id="cd01"
 cd Spotify_vs_Youtube_EDA
 ```
 
-Install dependencies:
+---
 
-```bash
-pip install -r requirements.txt
-```
+### Open in VS Code
 
-Run Jupyter Notebook:
-
-```bash
-jupyter notebook
+```bash id="open01"
+code .
 ```
 
 ---
 
-## GitHub Setup Commands 🚀
+## 4. Basic Git Workflow (After Changes)
 
-```bash
-echo "# Spotify_vs_Youtube_EDA" >> README.md
+### Add changes
 
-git init
+```bash id="add01"
+git add .
+```
 
-git add README.md
+### Commit changes
 
-git commit -m "first commit"
+```bash id="commit01"
+git commit -m "update project"
+```
 
-git branch -M main
+### Push to GitHub
 
-git remote add origin git@github.com:Ahadmoen/Spotify_vs_Youtube_EDA.git
-
-git push -u origin main
+```bash id="push01"
+git push
 ```
 
 ---
 
-## Future Improvements 🔮
+## Note
 
-* Machine Learning prediction models
-* Dashboard using Streamlit or Power BI
-* Real-time Spotify API integration
-* Sentiment analysis on comments
-
----
-
-## Author 👨‍💻
-
-**Ahad Moeen**
-
-* Data Analyst
-* Associate Data Scientist
-* AI/ML Enthusiast
-
-GitHub: https://github.com/Ahadmoen
-
----
-
-## License 📄
-
-This project is open-source and available under the MIT License.
+* Use `git init` only when creating a new repo locally
+* Use `git clone` when downloading from GitHub
