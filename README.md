@@ -31,48 +31,7 @@ Dataset Source: Kaggle
 
 ---
 
-## Technologies Used 🛠️
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
-
----
-
-## Project Structure 📁
-
-```bash
-Spotify_vs_Youtube_EDA/
-│
-├── data/
-│   └── dataset.csv
-│
-├── notebooks/
-│   └── analysis.ipynb
-│
-├── images/
-│   └── visualizations/
-│
-├── README.md
-└── requirements.txt
-```
-
----
-
-## Key Analysis Performed 📈
-
-* Data Cleaning
-* Missing Value Handling
-* Correlation Analysis
-* Top Performing Songs
-* Spotify vs YouTube Comparison
-* Artist Popularity Analysis
-* Visualization of Engagement Metrics
-
----
 
 ## Sample Visualizations 📊
 
